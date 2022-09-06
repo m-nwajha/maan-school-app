@@ -1,0 +1,823 @@
+<!DOCTYPE html>
+<html lang="ar">
+	<head>
+
+		<meta charset="UTF-8">
+		<meta name='viewport' content='width=device-width, initial-scale=1.0, user-scalable=0'>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="Description" content="Bootstrap Responsive Admin Web Dashboard HTML5 Template">
+		<meta name="Author" content="Spruko Technologies Private Limited">
+		<meta name="Keywords" content="admin,admin dashboard,admin dashboard template,admin panel template,admin template,admin theme,bootstrap 4 admin template,bootstrap 4 dashboard,bootstrap admin,bootstrap admin dashboard,bootstrap admin panel,bootstrap admin template,bootstrap admin theme,bootstrap dashboard,bootstrap form template,bootstrap panel,bootstrap ui kit,dashboard bootstrap 4,dashboard design,dashboard html,dashboard template,dashboard ui kit,envato templates,flat ui,html,html and css templates,html dashboard template,html5,jquery html,premium,premium quality,sidebar bootstrap 4,template admin bootstrap 4"/>
+
+		<!-- Title -->
+		<title>مدرسة معا نهائي </title>
+		<!-- Favicon -->
+		<link rel="icon" href="assets/img/brand/favicon.png" type="image/x-icon"/>
+
+		
+		<!-- Icons css -->
+		<link href="assets/css/icons.css" rel="stylesheet">
+
+		<!--- Internal Select2 css-->
+		<link href="assets/plugins/select2/css/select2.min.css" rel="stylesheet">
+
+		<!---Internal Fileupload css-->
+		<link href="assets/plugins/fileuploads/css/fileupload.css" rel="stylesheet" type="text/css"/>
+
+		<!---Internal Fancy uploader css-->
+		<link href="assets/plugins/fancyuploder/fancy_fileupload.css" rel="stylesheet" />
+
+		<!--Internal Sumoselect css-->
+		<link rel="stylesheet" href="assets/plugins/sumoselect/sumoselect-rtl.css">
+
+		<!--Internal  TelephoneInput css-->
+		<link rel="stylesheet" href="assets/plugins/telephoneinput/telephoneinput-rtl.css">
+
+		<!--  Right-sidemenu css -->
+		<link href="assets/plugins/sidebar/sidebar.css" rel="stylesheet">
+
+		<!-- Sidemenu css -->
+		<link rel="stylesheet" href="assets/css-rtl/sidemenu1.css">
+
+		<!--  Custom Scroll bar-->
+		<link href="assets/plugins/mscrollbar/jquery.mCustomScrollbar.css" rel="stylesheet"/>
+
+		<!--- Style css-->
+		<link href="assets/css-rtl/style.css" rel="stylesheet">
+		<link href="assets/css-rtl/style-dark.css" rel="stylesheet">
+
+		<!---Skinmodes css-->
+		<link href="assets/css-rtl/skin-modes.css" rel="stylesheet" />
+
+		<!--- Animations css-->
+		<link href="assets/css/animate.css" rel="stylesheet">
+
+		<!--  Owl-carousel css-->
+		<link href="assets/plugins/owl-carousel/owl.carousel.css" rel="stylesheet" />
+
+
+
+		<!--- Internal Morris css-->
+		<link href="assets/plugins/morris.js/morris.css" rel="stylesheet">
+
+		
+		<!--- Style css --->
+		<link rel="stylesheet" href="assets/css-rtl/custom.css">
+
+
+		<!--fonts css-->
+		<link href='https://fonts.googleapis.com/css?family=Tajawal' rel='stylesheet'>
+
+		<!--font-awesome-->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+	</head>
+
+	<body class="main-body app sidebar-mini">
+
+		<!-- Loader -->
+		<div id="global-loader">
+			<img src="assets/img/loader.svg" class="loader-img" alt="Loader">
+		</div>
+		<!-- /Loader -->
+		<!-- Page -->
+		<div class="page">
+
+			<!-- main-sidebar -->
+			<div class="app-sidebar__overlay" data-toggle="sidebar"></div>
+			<aside class="app-sidebar sidebar-scroll">
+				<!--logo-->
+				<div class="app-sidebar__user clearfix mb-0">
+					<div class="dropdown user-pro-body">
+						<div class="mb-0 mt-4">
+							<img alt="logo" class="avatar avatar-xl brround" src="assets/img/brand/logo.png">
+						</div>
+					</div>
+				</div>
+				<div class="main-sidemenu mt-1">
+
+					<ul class="side-menu">
+						<li class="slide">
+							<a class="side-menu__item" href="index.html"><span><i class="la la-home side-menu__icon"></i></span><span class="side-menu__label">الرئيسية</span></a>
+						</li>
+						<li class="slide">
+							<a class="side-menu__item" data-toggle="slide" href="#"><span><i class="la la-city side-menu__icon"></i></span><span class="side-menu__label">البلديات</span><i class="angle fe fe-chevron-down"></i></a>
+							<ul class="slide-menu">
+								<li><a class="slide-item" href="mu_about.html">عن البلدية </a></li>
+							</ul>
+						</li>
+						<li class="slide">
+							<a class="side-menu__item" href="tasks.html"><span><i class="la la-calendar-check side-menu__icon"></i></span><span class="side-menu__label">تنظيم المهام</span></a>
+						</li> 
+						<li class="slide">
+							<a class="side-menu__item" data-toggle="slide" href="#"><span><i class="la la-comment-dollar side-menu__icon"></i></span><span class="side-menu__label">المزانية</span><i class="angle fe fe-chevron-down"></i></a>
+							<ul class="slide-menu">
+								<li><a class="slide-item" href="all_budget.html">كافة المزانيات  </a></li>
+								<li><a class="slide-item" href="control_plan.html">التحكم بنموذج الخطة </a></li>
+								<li><a class="slide-item" href="control_income.html">التحكم بنموذج الدخل </a></li>
+
+							</ul>
+						</li>
+						<li class="slide">
+							<a class="side-menu__item" href="finance.html"><span><i class="la la-donate side-menu__icon"></i></span><span class="side-menu__label">المالية </span></a>
+						</li>
+						<li class="slide">
+							<a class="side-menu__item" data-toggle="slide" href="#"><span><i class="la la-users side-menu__icon"></i></span><span class="side-menu__label">مستخدمي النظام</span><i class="angle fe fe-chevron-down"></i></a>
+							<ul class="slide-menu">
+								<li><a class="slide-item" href="admin_users_e.html">مستخدمي الإدارة  </a></li>
+								<li><a class="slide-item" href="centers-e.html">المراكز </a></li>
+								<li><a class="slide-item" href="suppliers-e.html">المزودين </a></li>
+							</ul>
+						</li>
+						<li class="slide">
+							<a class="side-menu__item" data-toggle="slide" href="#"><span><i class="la la-id-card side-menu__icon"></i></span><span class="side-menu__label">الخدمات الخاصة </span><i class="angle fe fe-chevron-down"></i></a>
+							<ul class="slide-menu">
+								<li><a class="slide-item" href="sugg_serv.html">الخدمات المقترحة  </a></li>
+								<li><a class="slide-item" href="accred_serv.html">الخدمات المعتمدة</a></li>
+							</ul>
+						</li>
+						<li class="slide">
+							<a class="side-menu__item" href="support_serv-e.html"><span><i class="la la-headphones side-menu__icon"></i></span><span class="side-menu__label">متابعة الخدمة </span></a>
+						</li>
+						<li class="slide">
+							<a class="side-menu__item" data-toggle="slide" href="#"><span><i class="la la-user-friends side-menu__icon"></i></span><span class="side-menu__label">الطلاب  </span><i class="angle fe fe-chevron-down"></i></a>
+							<ul class="slide-menu">
+								<li><a class="slide-item" href="view_student.html">عرض الطلاب  </a></li>
+							</ul>
+						</li>
+						<li class="slide">
+							<a class="side-menu__item" href="#"><span><i class="la la-sign-out-alt side-menu__icon"></i></span><span class="side-menu__label">تسجيل الخروج  </span></a>
+						</li>
+						
+					
+				
+					</ul>
+				</div>
+			</aside>
+			<!-- main-sidebar -->
+
+			<!-- main-content -->
+			<div class="main-content app-content">
+
+				<!-- main-header opened -->
+				<div class="main-header sticky side-header nav nav-item">
+					<div class="container-fluid">
+						<div class="main-header-left ">
+							<div class="app-sidebar__toggle" data-toggle="sidebar">
+								<a class="open-toggle" href="#"><i class="header-icon fe fe-align-left" ></i></a>
+								<a class="close-toggle" href="#"><i class="header-icons fe fe-x"></i></a>
+							</div>
+							<!--Search -->
+							<div class="main-header-center mr-3 d-sm-none d-md-none d-lg-block text-right">
+							     <input class="form-control" placeholder="إبحث من هنا" type="search"> <button class="btn"><i class="fas fa-search d-none d-md-block"></i></button>
+							<!--.Search -->
+							</div>
+						</div>
+						<div class="main-header-right">
+							<ul class="nav">
+								<li class="">
+									<div class="dropdown  nav-itemd-none d-md-flex">
+                                    <a href="#" class="btn lng-btn">اللغة العبرية</a>
+									</div>
+								</li>
+							</ul>
+							<!--Search sm-->
+							<div class="nav nav-item  navbar-nav-right ml-auto">
+								<div class="nav-link" id="bs-example-navbar-collapse-1">
+									<form class="navbar-form" role="search">
+										<div class="input-group">
+											<input type="text" class="form-control" placeholder="إبحث من هنا">
+											<span class="input-group-btn">
+												<button type="reset" class="btn btn-default">
+													<i class="fas fa-times"></i>
+												</button>
+												<button type="submit" class="btn btn-default nav-link resp-btn">
+													<svg xmlns="http://www.w3.org/2000/svg" class="header-icon-svgs" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-search"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+												</button>
+											</span>
+										</div>
+									</form>
+								<!--.Search sm-->
+								</div>
+								<!--message-->
+								<div class="dropdown nav-item main-header-message">
+									<a class="new nav-link" href="#"><svg xmlns="http://www.w3.org/2000/svg" class="header-icon-svgs" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-mail"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg><span class=" pulse-danger"></span></a>
+									<div class="dropdown-menu">
+										<div class="menu-header-content menu-header-content-bg text-right">
+											<div class="d-flex">
+												<h6 class="dropdown-title mb-0 tx-16 font-weight-bold">الرسائل</h6>
+												<span class="btn btn-dropdown mr-auto my-auto float-left"><a href="#">تحديد الكل كمقروء</a></span>
+											</div>
+											<p class="dropdown-title-text subtext m-0 text-dark op-6 pb-0 tx-14 mt-0">لديك 4 رسائل غير مقروءة</p>
+										</div>
+
+										<div class="main-notification-list chat-scroll">
+											<div class="list-group">
+												<div class="list-group-item pd-y-20 alert media m-2 p-1 rounded-top rounded-bottom"  role="alert">
+													<div>
+														
+														<button aria-label="Close" class="btn close text-dark" data-dismiss="alert" type="button">
+														<span aria-hidden="true">&times;</span></button>
+														<div class="media-body">
+															<div class="media-body d-flex">
+																<a href="#"><div class="float-right drop-img cover-image ml-2" data-image-src="assets/img/faces/2.jpg">
+																	<span class="avatar-status bg-teal"></span>
+																</div></a>	
+																<h6 class="tx-15 mt-2" style="color:#0DAFB2 ;"><a href="#"> الإسم هنا </a></h6>
+																<span class="tx-13 float-left mr-auto " style="color:#0DAFB2 ;">منذ 15 دقيقة</span>
+															</div>
+														</div>
+														<div><p class="tx-13 mg-b-10 text-muted mb-0 d-block">النص هنا النص هنا النص هنا النص هنا النص هنا النص هنا.</p>
+															<p class="tx-11 time mb-0 text-left float-right mr-2 mt-2">Mar 06 01:12 AM</p>
+
+														</div>
+													</div>
+												</div>
+												<div class="list-group-item pd-y-20 alert media m-2 p-1 rounded-top rounded-bottom"  role="alert">
+													<div>
+														
+														<button aria-label="Close" class="btn close text-dark" data-dismiss="alert" type="button">
+														<span aria-hidden="true">&times;</span></button>
+														<div class="media-body">
+															<div class="media-body d-flex">
+																<a href="#"><div class="float-right drop-img cover-image ml-2" data-image-src="assets/img/faces/2.jpg">
+																	<span class="avatar-status bg-teal"></span>
+																</div></a>	
+																<h6 class="tx-15 mt-2" style="color:#0DAFB2 ;"><a href="#"> الإسم هنا </a></h6>
+																<span class="tx-13 float-left mr-auto " style="color:#0DAFB2 ;">منذ 15 دقيقة</span>
+															</div>
+														</div>
+														<div><p class="tx-13 mg-b-10 text-muted mb-0 d-block">النص هنا النص هنا النص هنا النص هنا النص هنا النص هنا.</p>
+															<p class="tx-11 time mb-0 text-left float-right mr-2 mt-2">Mar 06 01:12 AM</p>
+
+														</div>
+													</div>
+												</div>
+												<div class="list-group-item pd-y-20 alert media m-2 p-1 rounded-top rounded-bottom"  role="alert">
+													<div>
+														
+														<button aria-label="Close" class="btn close text-dark" data-dismiss="alert" type="button">
+														<span aria-hidden="true">&times;</span></button>
+														<div class="media-body">
+															<div class="media-body d-flex">
+																<a href="#"><div class="float-right drop-img cover-image ml-2" data-image-src="assets/img/faces/2.jpg">
+																	<span class="avatar-status bg-teal"></span>
+																</div></a>	
+																<h6 class="tx-15 mt-2" style="color:#0DAFB2 ;"><a href="#"> الإسم هنا </a></h6>
+																<span class="tx-13 float-left mr-auto " style="color:#0DAFB2 ;">منذ 15 دقيقة</span>
+															</div>
+														</div>
+														<div><p class="tx-13 mg-b-10 text-muted mb-0 d-block">النص هنا النص هنا النص هنا النص هنا النص هنا النص هنا.</p>
+															<p class="tx-11 time mb-0 text-left float-right mr-2 mt-2">Mar 06 01:12 AM</p>
+
+														</div>
+													</div>
+												</div>
+												<div class="list-group-item pd-y-20 alert media m-2 p-1 rounded-top rounded-bottom"  role="alert">
+													<div>
+														
+														<button aria-label="Close" class="btn close text-dark" data-dismiss="alert" type="button">
+														<span aria-hidden="true">&times;</span></button>
+														<div class="media-body">
+															<div class="media-body d-flex">
+																<a href="#"><div class="float-right drop-img cover-image ml-2" data-image-src="assets/img/faces/2.jpg">
+																	<span class="avatar-status bg-teal"></span>
+																</div></a>	
+																<h6 class="tx-15 mt-2" style="color:#0DAFB2 ;"><a href="#"> الإسم هنا </a></h6>
+																<span class="tx-13 float-left mr-auto " style="color:#0DAFB2 ;">منذ 15 دقيقة</span>
+															</div>
+														</div>
+														<div><p class="tx-13 mg-b-10 text-muted mb-0 d-block">النص هنا النص هنا النص هنا النص هنا النص هنا النص هنا.</p>
+															<p class="tx-11 time mb-0 text-left float-right mr-2 mt-2">Mar 06 01:12 AM</p>
+
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="text-center dropdown-footer">
+											<a href="text-center" style="color:#0DAFB2 ;"><svg xmlns="http://www.w3.org/2000/svg" class="header-icon-svgs" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-mail" style="color:#0DAFB2 ;" ><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg> عرض جميع الرسائل</a>
+										</div>
+									</div>
+									<!--.message-->
+								</div>
+
+								<!--notification-->
+								<div class="dropdown nav-item main-header-notification">
+									<a class="new nav-link" href="#">
+									<svg xmlns="http://www.w3.org/2000/svg" class="header-icon-svgs" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-bell"><path d="M18 8A6 6 0 0 0 6 8c0 7-3 9-3 9h18s-3-2-3-9"></path><path d="M13.73 21a2 2 0 0 1-3.46 0"></path></svg><span class=" pulse"></span></a>
+									<div class="dropdown-menu">
+										<div class="menu-header-content menu-header-content-bg text-right">
+											<div class="d-flex">
+												<h6 class="dropdown-title mb-1 tx-16 font-weight-bold">الإشعارات</h6>
+												<span class="btn btn-dropdown mr-auto my-auto float-left"><a href="#">تحديد الكل كمقروء</a></span>
+											</div>
+										</div>
+										<div class="main-notification-list Notification-scroll">
+											<div class="list-group">
+												<div class="list-group-item pd-y-20 alert media m-2 p-1 rounded-top rounded-bottom"  role="alert">
+													<div>
+														<button aria-label="Close" class="btn close text-dark" data-dismiss="alert" type="button">
+														<span aria-hidden="true">&times;</span></button>
+														<div class="media-body">
+															<div class="media-body d-flex">
+																<h6 class="tx-15 mb-2"><a href="#"> عنوان الإشعار</a></h6>
+																<span class="tx-13 float-left mr-auto " style="color:#0DAFB2 ;">منذ 15 دقيقة</span>
+															</div>
+															<p class="tx-13 mg-b-10 text-muted mb-0">النص هنا النص هنا النص هنا النص هنا النص هنا النص هنا.</p>
+														</div>
+													</div>
+												</div>
+												<div class="list-group-item pd-y-20 alert media m-2 p-1 rounded-top rounded-bottom"  role="alert">
+													<div>
+														<button aria-label="Close" class="btn close text-dark" data-dismiss="alert" type="button">
+														<span aria-hidden="true">&times;</span></button>
+														<div class="media-body">
+															<div class="media-body d-flex">
+																<h6 class="tx-15 mb-2"><a href="#"> عنوان الإشعار</a></h6>
+																<span class="tx-13 float-left mr-auto " style="color:#0DAFB2 ;">منذ 15 دقيقة</span>
+															</div>
+															<p class="tx-13 mg-b-10 text-muted mb-0">النص هنا النص هنا النص هنا النص هنا النص هنا النص هنا.</p>
+														</div>
+													</div>
+												</div>
+												<div class="list-group-item pd-y-20 alert media m-2 p-1 rounded-top rounded-bottom"  role="alert">
+													<div>
+														<button aria-label="Close" class="btn close text-dark" data-dismiss="alert" type="button">
+														<span aria-hidden="true">&times;</span></button>
+														<div class="media-body">
+															<div class="media-body d-flex">
+																<h6 class="tx-15 mb-2"><a href="#"> عنوان الإشعار</a></h6>
+																<span class="tx-13 float-left mr-auto " style="color:#0DAFB2 ;">منذ 15 دقيقة</span>
+															</div>
+															<p class="tx-13 mg-b-10 text-muted mb-0">النص هنا النص هنا النص هنا النص هنا النص هنا النص هنا.</p>
+														</div>
+													</div>
+												</div>
+												<div class="list-group-item pd-y-20 alert media m-2 p-1 rounded-top rounded-bottom"  role="alert">
+													<div>
+														<button aria-label="Close" class="btn close text-dark" data-dismiss="alert" type="button">
+														<span aria-hidden="true">&times;</span></button>
+														<div class="media-body">
+															<div class="media-body d-flex">
+																<h6 class="tx-15 mb-2"><a href="#"> عنوان الإشعار</a></h6>
+																<span class="tx-13 float-left mr-auto " style="color:#0DAFB2 ;">منذ 15 دقيقة</span>
+															</div>
+															<p class="tx-13 mg-b-10 text-muted mb-0">النص هنا النص هنا النص هنا النص هنا النص هنا النص هنا.</p>
+														</div>
+													</div>
+												</div>
+												<div class="list-group-item pd-y-20 alert media m-2 p-1 rounded-top rounded-bottom"  role="alert">
+													<div>
+														<button aria-label="Close" class="btn close text-dark" data-dismiss="alert" type="button">
+														<span aria-hidden="true">&times;</span></button>
+														<div class="media-body">
+															<div class="media-body d-flex">
+																<h6 class="tx-15 mb-2"><a href="#"> عنوان الإشعار</a></h6>
+																<span class="tx-13 float-left mr-auto " style="color:#0DAFB2 ;">منذ 15 دقيقة</span>
+															</div>
+															<p class="tx-13 mg-b-10 text-muted mb-0">النص هنا النص هنا النص هنا النص هنا النص هنا النص هنا.</p>
+														</div>
+													</div>
+												</div>
+											</div>
+											
+										
+										</div>
+										<div class="dropdown-footer">
+											<a href="#" style="color:#0DAFB2 ;"><svg xmlns="http://www.w3.org/2000/svg" class="header-icon-svgs" style="color:#0DAFB2 ;" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-bell"><path d="M18 8A6 6 0 0 0 6 8c0 7-3 9-3 9h18s-3-2-3-9"></path><path d="M13.73 21a2 2 0 0 1-3.46 0"></path></svg> عرض جميع الإشعارات</a>
+										</div>
+									</div>
+								<!--.notification-->
+								</div>
+								<div class="nav-item full-screen fullscreen-button">
+									<a class="new nav-link full-screen-link" href="#"><svg xmlns="http://www.w3.org/2000/svg" class="header-icon-svgs" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-maximize"><path d="M8 3H5a2 2 0 0 0-2 2v3m18 0V5a2 2 0 0 0-2-2h-3m0 18h3a2 2 0 0 0 2-2v-3M3 16v3a2 2 0 0 0 2 2h3"></path></svg></a>
+								</div>
+								<!--user_profile-->
+								<div class="dropdown main-profile-menu nav nav-item nav-link">
+									<a class="profile-user d-flex" href="">
+										<div class="main-header-profile">
+											<div class="d-flex wd-100p">
+												<div class="main-img-user"><img alt="" src="assets/img/faces/6.jpg" class=""> </div>
+												<div class="mr-3 my-auto text-center d-none d-md-block">
+													<h6 class="text-dark"> اسم المستخدم</h6><span class="text-secondary">support </span>
+												</div>
+												<div class="mr-2 my-auto d-none d-md-block">
+													<span class="text-dark"> <i class="fe fe-chevron-down"></i></span>
+												</div>
+											</div>
+										</div>
+									</a>
+									<div class="dropdown-menu header-profile-after ml-3">
+										<div class="main-header-profile-bg p-3">
+											<div class="d-flex wd-100p"><a href="#">
+												<div class="main-img-user"><img alt="" src="assets/img/faces/6.jpg" class=""> </div>
+												<div class="mr-3 my-auto text-center">
+													<h6 class="text-dark tx-16 font-weight-bold"> اسم المستخدم</h6><span class="text-white">support </span>
+												</a></div>
+											</div>
+										</div>
+										<a class="dropdown-item" data-target="#edite_profile_Modal" data-toggle="modal" href=""><i class="bx bx-cog"></i>  تعديل بيانات الصفحة الشخصية</a>
+										<a class="dropdown-item" href="page-signin.html"><i class="bx bx-log-out"></i>  تسجيل الخروج</a>
+								<!--.user_profile-->
+								</div>
+								</div>
+
+							</div>
+						</div>
+					</div>
+				</div>
+				<!--.header-->
+				<!--edite_profile_Modal-->
+				<div class="modal" id="edite_profile_Modal">
+					<div class="modal-dialog" role="document">
+						<div class="modal-content modal-content-demo">
+							<div class="modal-header border-0">
+								<h6 class="modal-title" style="color: #0DAFB2;">إضافة مزانية جديدة</h6><button aria-label="Close" class="close btn" data-dismiss="modal" type="button"><span aria-hidden="true"><i class="las la-times-circle"></i></span></button>
+							</div>
+							<div class="modal-body">
+								<form action="form-validation.html" class="parsley-style-1" id="selectForm2" name="selectForm2">
+									<div class="">
+										<div class="row mg-b-20 justify-content-center">
+											<div class="parsley-input col-4 mt-1" id="fnWrapper">
+												<label class="tx-14 font-weight-bold">تحرير الصورة الشخصية: </label>
+												<input type="file" class="dropify text-center" data-default-file="assets/img/photos/1.jpg" data-height="200"  />
+											</div>
+											<div class="parsley-input col-12 mt-1" id="fnWrapper">
+												<label class="tx-14 font-weight-bold">اسم المستخدم: </label>
+												<input class="form-control" data-parsley-class-handler="#fnWrapper" name=" " placeholder="اسم المستخدم" required="" type="text">
+											</div>
+											<div class="parsley-input col-12 mt-1" id="fnWrapper">
+												<label class="tx-14 font-weight-bold">كلمة المرور : </label>
+												<input class="form-control" data-parsley-class-handler="#fnWrapper" name=" " placeholder="كلمة المرور " required="" type="password">
+											</div>
+											<div class="parsley-input col-12 mt-1" id="fnWrapper">
+												<label class="tx-14 font-weight-bold">البريد الإلكتروني : </label>
+												<input class="form-control" data-parsley-class-handler="#fnWrapper" name=" " placeholder="البريد الإلكتروني " required="" type="email">
+											</div>
+											<div class="parsley-input col-12 mt-1" id="fnWrapper">
+												<label class="tx-14 font-weight-bold">رقم الهاتف: </label>
+												<input class="form-control" data-parsley-class-handler="#fnWrapper" name=" " placeholder="رقم الهاتف " required="" type="tel">
+											</div>
+										</div>
+
+									</div>
+								</form>										
+							</div>
+							<div class="modal-footer border-0">
+								<button class="btn green-btn pd-x-20 m-1" type="submit">تحديث</button>
+								<button class="btn green-btn-outline pd-x-20 m-1" type="reset">إلغاء</button>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!--.edite_profile_Modal-->	
+				<div class="container-fluid mt-4">
+					<!--row_1-->
+					<div class="row row-sm justify-content-between">
+						<div class="col-lg-6 col-xl-4 col-md-6 col-12">
+							<div class="card bg-red-gradient text-white ">
+								<div class="card-body">
+									<div class="row align-items-center">
+										<div class="col-6">
+											<div class="mt-0 text-center">
+												<span class="tx-18 text-white">المرشدين</span>
+												<h2 class="text-white mb-0">60</h2>
+												<span class="text-white">متاح</span>
+											</div>
+										</div>
+										<div class="col-6">
+											<div class="icon1 mt-2 text-center">
+												<i class="las la-user-friends tx-70"></i>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-6 col-xl-4 col-md-6 col-12">
+							<div class="card bg-yellow-gradient text-white ">
+								<div class="card-body">
+									<div class="row align-items-center">
+										<div class="col-6">
+											<div class="mt-0 text-center">
+												<span class="tx-18 text-white">الخدمات</span>
+												<h2 class="text-white mb-0">60</h2>
+												<span class="text-white">متاح</span>
+											</div>
+										</div>
+										<div class="col-6">
+											<div class="icon1 mt-2 text-center">
+												<i class="fe fe-users tx-60"></i>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-6 col-xl-4 col-md-6 col-12">
+							<div class="card bg-green-gradient text-white ">
+								<div class="card-body">
+									<div class="row align-items-center">
+										<div class="col-6">
+											<div class="mt-0 text-center">
+												<span class="tx-18 text-white">الطلاب</span>
+												<h2 class="text-white mb-0">60</h2>
+												<span class="text-white">متاح</span>
+											</div>
+										</div>
+										<div class="col-6">
+											<div class="icon1 mt-2 text-center">
+												<i class="las la-users tx-70 "></i>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					<!--.row_1-->
+					</div>
+					<!--row2-->
+					<div class="row row-sm justify-content-center">
+						<div class="col-md-12 col-lg-12 col-xl-8">
+							<div class="card" style="box-shadow:none ;">
+								<div class="card-body">
+									<div class="d-flex justify-content-between">
+										<h4 class="card-title m-2 tx-18 mg-b-0" style="color: #0DAFB2;">تقرير الإرادات</h4>
+										
+										<div class="total-revenue border-0 mt-2" style="position:unset ;">
+											<div>
+											  <label><span style="background-color: #6979F8;"></span>الربح</label>
+											</div>
+											<div>
+											  <label><span style="background-color: #F28D35;"></span>النفقة</label>
+											</div>
+											<div>
+												<select class="form-control p-2 tx-14 text-dark mt-0">
+													<option label="2022 ">
+													</option>
+													<option value="2021">
+														2021
+													</option>
+												</select>										
+											</div>
+										  </div>
+									</div>
+									<div id="bar" class="sales-bar"></div>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-12 col-xl-4">
+							<div class="card" style="box-shadow:none ;">
+									<div class="card-header pb-1">
+										<h4 class="card-title m-2 tx-18 mg-b-0" style="color: #0DAFB2;">أحدث الخدمات</h4>
+									</div>
+									<div class="card-body p-0 customers mt-1">
+										<div class="list-group list-lg-group list-group-flush">
+											<div class="list-group-item list-group-item-action" href="#">
+												<div class="media mt-0">
+													<img class="avatar-lg rounded-circle ml-3 my-auto" src="assets/img/faces/3.jpg" alt="Image description">
+													<div class="media-body">
+														<div class="">
+															<div class="mt-0">
+																<h5 class="mb-1 tx-15 text-dark font-weight-bold"><a href="#">برنامج صف عاشر</a></h5>
+																<p class="mb-0 tx-13 text-muted text-left"><i class="las la-user-friends text-success tx-16 m-1"></i>مركز بلدية أم الفحم<span class="pr-5"><i class="las la-user-friends text-success tx-16 m-1"></i> 100 طالب </span></p>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="card-body p-0 customers mt-1">
+										<div class="list-group list-lg-group list-group-flush">
+											<div class="list-group-item list-group-item-action" href="#">
+												<div class="media mt-0">
+													<img class="avatar-lg rounded-circle ml-3 my-auto" src="assets/img/faces/3.jpg" alt="Image description">
+													<div class="media-body">
+														<div class="">
+															<div class="mt-0">
+																<h5 class="mb-1 tx-15 text-dark font-weight-bold"><a href="#">برنامج صف عاشر</a></h5>
+																<p class="mb-0 tx-13 text-muted text-left"><i class="las la-user-friends text-success tx-16 m-1"></i>مركز بلدية أم الفحم<span class="pr-5"><i class="las la-user-friends text-success tx-16 m-1"></i> 100 طالب </span></p>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="card-body p-0 customers mt-1">
+										<div class="list-group list-lg-group list-group-flush">
+											<div class="list-group-item list-group-item-action" href="#">
+												<div class="media mt-0">
+													<img class="avatar-lg rounded-circle ml-3 my-auto" src="assets/img/faces/3.jpg" alt="Image description">
+													<div class="media-body">
+														<div class="">
+															<div class="mt-0">
+																<h5 class="mb-1 tx-15 text-dark font-weight-bold"><a href="#">برنامج صف عاشر</a></h5>
+																<p class="mb-0 tx-13 text-muted text-left"><i class="las la-user-friends text-success tx-16 m-1"></i>مركز بلدية أم الفحم<span class="pr-5"><i class="las la-user-friends text-success tx-16 m-1"></i> 100 طالب </span></p>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="card-body p-0 customers mt-1">
+										<div class="list-group list-lg-group list-group-flush">
+											<div class="list-group-item list-group-item-action" href="#">
+												<div class="media mt-0">
+													<img class="avatar-lg rounded-circle ml-3 my-auto" src="assets/img/faces/3.jpg" alt="Image description">
+													<div class="media-body">
+														<div class="">
+															<div class="mt-0">
+																<h5 class="mb-1 tx-15 text-dark font-weight-bold"><a href="#">برنامج صف عاشر</a></h5>
+																<p class="mb-0 tx-13 text-muted text-left"><i class="las la-user-friends text-success tx-16 m-1"></i>مركز بلدية أم الفحم<span class="pr-5"><i class="las la-user-friends text-success tx-16 m-1"></i> 100 طالب </span></p>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+						</div>
+					<!--.row_2-->
+					</div>					
+					<!--row_3-->
+					<div class="row">
+						<div class="col-xl-12">
+							<div class="card" style="box-shadow: none;">
+									<div class="card-header pb-0">
+										<div class="d-flex justify-content-center">
+											<div class="col-3 text-right">
+												<h4 class="card-title m-2 tx-16 mg-b-0" style="color: #0DAFB2;">أخر العمليات على النظام</h4>
+											</div>
+											<div class="col-9 text-left">
+											<button class="btn green-btn pd-x-20 " type="submit"><a href="#">البلديات</a></button>
+											<button class="btn green-btn-outline pd-x-20" type="button"><a href="#">الطلاب</a></button>
+											<button class="btn green-btn-outline pd-x-20 " type="button"><a href="#">المستخدمين</a></button>
+											<button class="btn green-btn-outline pd-x-20 " type="button"><a href="#">الخدمة</a></button>
+											<button class="btn green-btn-outline pd-x-20 " type="button"><a href="#">المرشدين</a></button>
+											<button class="btn green-btn-outline pd-x-20" type="button"><a href="#">المهام</a></button>
+											</div>
+										</div>
+									</div>
+									<div class="card-body">
+										<div class="table-responsive">
+											<table class="table table-hover mb-0 text-md-nowrap" style="align-items:center ;">
+												<thead class="tx-17 font-weight-bold text-center">
+													<tr>
+														<th>شعار البلدية </th>
+														<th>اسم البلدية </th>
+														<th>اسم المستخدم</th>
+														<th>المستخدمين</th>
+														<th>عدد السكان</th>
+														<th>الرسائل</th>
+														<th>أنشئ بتاريخ </th>
+														<th>حالة الحساب</th>
+														<th>دخول عبر الحساب</th>
+														<th>إعادة تعين كلمة المرور</th>
+													</tr>
+												</thead>
+												<tbody class="tx-14 text-center">
+													<tr>
+														<th>
+															<div class="avatar-sm" style="display: inline-block;">
+																<img alt="avatar" class="rounded-circle" src="assets/img/faces/5.jpg">
+															</div>
+														</th>													<th>اسم البلدية </th>
+														<th>اسم المستخدم</th>
+														<th>6</th>
+														<th>1500</th>
+														<th>2000</th>
+														<th>5/3/2020</th>
+														<th><a class="btn btn-active">فعال</a></th>
+														<th><a class="btn btn-login" href="#">دخول</a></th>
+														<th><a class="btn btn-pass_reset" href="#">تعين كلمة المرور</a></th>
+													</tr>
+													<tr>
+														<th>
+															<div class="avatar-sm" style="display: inline-block;">
+																<img alt="avatar" class="rounded-circle" src="assets/img/faces/5.jpg">
+															</div>
+														</th>													<th>اسم البلدية </th>
+														<th>اسم المستخدم</th>
+														<th>6</th>
+														<th>1500</th>
+														<th>2000</th>
+														<th>5/3/2020</th>
+														<th><a class="btn btn-active">فعال</a></th>
+														<th><a class="btn btn-login" href="#">دخول</a></th>
+														<th><a class="btn btn-pass_reset" href="#">تعين كلمة المرور</a></th>
+													</tr>
+													<tr>
+														<th>
+															<div class="avatar-sm" style="display: inline-block;">
+																<img alt="avatar" class="rounded-circle" src="assets/img/faces/5.jpg">
+															</div>
+														</th>													<th>اسم البلدية </th>
+														<th>اسم المستخدم</th>
+														<th>6</th>
+														<th>1500</th>
+														<th>2000</th>
+														<th>5/3/2020</th>
+														<th><a class="btn btn-n-active">غير فعال</a></th>
+														<th><a class="btn btn-login" href="#">دخول</a></th>
+														<th><a class="btn btn-pass_reset" href="#">تعين كلمة المرور</a></th>
+													</tr>
+	
+												</tbody>
+											</table>
+										</div>
+									</div>
+							</div>
+						</div>
+					</div>
+	
+					</div>
+
+			    </div>
+
+			<!-- Footer opened -->
+			<div class="main-footer ht-40">
+				<div class="container-fluid pd-t-0-f ht-100p">
+					<span>جميع الحقوق محفوظة © 2020 <a href="#">مدرسة معا نهائي</a>.  by <a href="http://www.moh.a0001.net/">Mohammed AL-Nawajha</a> All rights reserved.</span>
+				</div>
+			</div>
+			<!-- Footer closed -->
+
+		</div>
+		<!-- End Page -->
+
+		<!-- JQuery min js -->
+		<script src="assets/plugins/jquery/jquery.min.js"></script>
+
+		<!-- Bootstrap Bundle js -->
+		<script src="assets/plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+		<!--Internal  Chart.bundle js -->
+		<script src="assets/plugins/chart.js/Chart.bundle.min.js"></script>
+
+		<!-- Ionicons js -->
+		<script src="assets/plugins/ionicons/ionicons.js"></script>
+
+		<!-- Moment js -->
+		<script src="assets/plugins/moment/moment.js"></script>
+
+		<!--Internal Sparkline js -->
+		<script src="assets/plugins/jquery-sparkline/jquery.sparkline.min.js"></script>
+
+		<!-- Moment js -->
+		<script src="assets/plugins/raphael/raphael.min.js"></script>
+
+		<!--Internal  Flot js-->
+		<script src="assets/plugins/jquery.flot/jquery.flot.js"></script>
+		<script src="assets/plugins/jquery.flot/jquery.flot.pie.js"></script>
+		<script src="assets/plugins/jquery.flot/jquery.flot.resize.js"></script>
+		<script src="assets/plugins/jquery.flot/jquery.flot.categories.js"></script>
+		<script src="assets/js/dashboard.sampledata.js"></script>
+		<script src="assets/js/chart.flot.sampledata.js"></script>
+
+		<!-- Custom Scroll bar Js-->
+		<script src="assets/plugins/mscrollbar/jquery.mCustomScrollbar.concat.min.js"></script>
+
+		<!-- Rating js-->
+		<script src="assets/plugins/rating/jquery.rating-stars.js"></script>
+		<script src="assets/plugins/rating/jquery.barrating.js"></script>
+
+		<!-- P-scroll js -->
+		<script src="assets/plugins/perfect-scrollbar/perfect-scrollbar.min.js"></script>
+		<script src="assets/plugins/perfect-scrollbar/p-scroll.js"></script>
+
+		<!-- Horizontalmenu js-->
+		<script src="assets/plugins/sidebar/sidebar-rtl.js"></script>
+		<script src="assets/plugins/sidebar/sidebar-custom.js"></script>
+
+		<!-- Eva-icons js -->
+		<script src="assets/js/eva-icons.min.js"></script>
+
+		<!-- Sticky js -->
+		<script src="assets/js/sticky.js"></script>
+		<script src="assets/js/modal-popup.js"></script>
+
+		<!-- Left-menu js-->
+		<script src="assets/plugins/side-menu/sidemenu.js"></script>
+
+		<!-- Internal Map -->
+		<script src="assets/plugins/jqvmap/jquery.vmap.min.js"></script>
+		<script src="assets/plugins/jqvmap/maps/jquery.vmap.usa.js"></script>
+
+		<!--Internal  index js -->
+		<script src="assets/js/index.js"></script>
+
+		<!-- Apexchart js-->
+		<script src="assets/js/apexcharts.js"></script>
+
+		<!-- custom js -->
+		<script src="assets/js/custom.js"></script>
+		<script src="assets/js/jquery.vmap.sampledata.js"></script>
+
+	</body>
+</html>
