@@ -1,5 +1,5 @@
 # Maan school app
-🌐 [Deploy URL](https://nawjha.netlify.app) 
+🌐 [Deploy URL](https://maan-school.netlify.app/) 
 ---
 This is a modern, responsive website designed to showcase the programs, values, and activities of Maan School.
 
@@ -11,10 +11,9 @@ This is a modern, responsive website designed to showcase the programs, values, 
 The website reflects the school’s dedication to education and community engagement, offering visitors an intuitive and engaging experience.
 
 
-**Screenshots**  
+### Screenshots:
+
 ![](https://nawjha.tech/assets/images/portfolio/maan.png)
-
-
 
 
 ---
